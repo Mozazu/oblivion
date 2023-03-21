@@ -30,3 +30,27 @@ a:hover {
 a:focus {
     background-color: rgb(168, 85, 54);
 }
+
+.oblivion {
+    opacity: 0.5;
+    width: 200px;
+    height: 125px;
+}
+
+.oblivion:hover {
+    opacity: 1;
+    border: 4px dashed blue;
+}
+
+.oblivion+h4 {
+    opacity: 0;
+}
+
+.oblivion:hover+h4 {
+    opacity: 1;
+}
+
+.pop {
+    height: 125px;
+    width: 200px;
+}
